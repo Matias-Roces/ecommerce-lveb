@@ -1,7 +1,8 @@
+import { Center } from "@chakra-ui/react"
 const ItemListContainer = ({greetings}) => {
     return (
         <>
-            <div>{greetings}</div>
+            <Center>{greetings}</Center>
         </>
         
     )

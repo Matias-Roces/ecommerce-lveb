@@ -23,7 +23,6 @@ function NavBar() {
                 <CartWidget/>
             </Center>
         </Flex>
-        
     );
 }
 export default NavBar;
