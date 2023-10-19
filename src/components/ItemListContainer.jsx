@@ -1,10 +1,26 @@
-import { Center } from "@chakra-ui/react"
-const ItemListContainer = ({greetings}) => {
+import { useState, useEffect } from "react"
+import ItemList from "./ItemList"
+import './ItemListContainer.scss'
+
+const ItemListContainer = () => {
+    const getProducts = async () => {
+        const response = await fetch('/data.json')
+        const data = await response.json()        
+        return data
+    }
+    const [data, setData] = useState([])
+
+    useEffect(() => {
+        getProducts().then((p) => {
+            setData(p)
+        })
+    }, [])
     return (
-        <>
-            <Center>{greetings}</Center>
-        </>
-        
+        <div className="card-container">
+            <ItemList data={data}/>
+            {/* <Center>{productos}</Center> */}
+        </div>
+
     )
 }
 

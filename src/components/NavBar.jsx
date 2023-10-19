@@ -1,28 +1,34 @@
+import { Link } from 'react-router-dom';
 import CartWidget from './CartWidget';
-import { Flex, Spacer, Box, Select, Center } from '@chakra-ui/react';
+import './NavBar.scss'
 
-function NavBar() {
+const NavBar = () => {
     return (
-        <Flex bg='rgba(236, 215, 255)'>
-            <Center p='4' fontSize="20px" width="200px">
-                La Vie Est Belle
-            </Center>
-            <Spacer />
-            <Center p='4'>
-                <Select placeholder='Todos' bg='#ffffff'>
-                    <option value='1'>Linea Home</option>
-                    <option value='2'>Linea Spa</option>
-                    <option value='3'>Jabones</option>
-                    <option value='4'>Cosmetica natural</option>
-                    <option value='5'>Almohadillas y antifaces</option>
-                    <option value='6'>Esponjas</option>
-                </Select>
-            </Center>
-            <Spacer />
-            <Center p='4' width="200px">
-                <CartWidget/>
-            </Center>
-        </Flex>
+        <header className='header'>
+            <nav className='nav'>
+                <Link to="/" className='header-link'>
+                    <div className='header-logo'>
+                        La Vie Est Belle
+                    </div>
+                </Link>
+                <div className="header-spacer"></div>
+                <div>
+                    <select className='header-select'>
+                        <option value='1'>Todos</option>
+                        <option value='2'>Linea Home</option>
+                        <option value='3'>Linea Spa</option>
+                        <option value='4'>Jabones</option>
+                        <option value='5'>Cosmetica natural</option>
+                        <option value='6'>Almohadillas y antifaces</option>
+                        <option value='7'>Esponjas</option>
+                    </select>
+                </div>
+                <div className="header-spacer"></div>
+                <div>
+                    <CartWidget />
+                </div>
+            </nav>
+        </header>
     );
 }
 export default NavBar;

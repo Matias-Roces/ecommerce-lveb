@@ -1,13 +1,20 @@
 import NavBar from "./components/NavBar"
-import ItemListContainer from "./components/itemListContainer"
+import Home from "./components/Home"
+import About from "./components/About"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import './App.scss'
 
 const App = () => {
-
   return (
     <>
-      <NavBar />
-      <ItemListContainer greetings={"Bienvenido a La Vie Est Belle - Fragancias"}/>
-    </>    
+      <BrowserRouter>
+        <NavBar />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/about" element={<About />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   )
 }
 export default App

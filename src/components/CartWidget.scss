@@ -1,0 +1,20 @@
+.cart-widget {
+    position: relative;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+    width: 250px;
+    .cart-icon {
+        font-size: large;
+    }
+    .badge-container {
+        position: absolute;
+        font-size: 1px;
+        top: 1px;
+        left: 5px;
+        background-color: darkseagreen;
+        color:darkcyan;
+        border-radius: 50%;
+        
+    }
+}
