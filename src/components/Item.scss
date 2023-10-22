@@ -46,21 +46,20 @@
     .botonera {
         display: flex;
         justify-content: center;
-
-        .card-boton {
-            margin: 10px 0px;
-            background-color: bisque;
-            padding: 10px 15px;
-            border-radius: 10px;
-            cursor: pointer;
-            transition: 0.3s;
-            box-shadow: 6px 6px 15px #e0e0e0,        
-        }
-
-        .card-boton:hover {
-            background-color: cadetblue;
-            color: rgb(243, 243, 243);
-            
-        }
     }
+}
+.card-boton {
+    margin: 10px 0px;
+    background-color: bisque;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 6px 6px 15px #e0e0e0;
+    font-size: 12px;    
+}
+.card-boton:hover {
+    background-color: cadetblue;
+    color: rgb(243, 243, 243);
+    
 }

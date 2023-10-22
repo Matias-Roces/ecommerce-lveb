@@ -1,7 +1,9 @@
 import React from 'react'
 import './Item.scss'
+import { Link } from 'react-router-dom';
+
 const Item = ({ p }) => {
-    const { nombre, categoria } = p;
+    const { id, nombre, categoria } = p;
 
     return (
         <>
@@ -21,11 +23,13 @@ const Item = ({ p }) => {
                 </div>
                 <hr />
                 <div className='botonera'>
-                    <button className='card-boton'>
-                        Ver detalle
-                    </button>
+                    <Link to={`/ItemDetailContainer/${id}`}>
+                        <button className='card-boton'>
+                            Ver detalle
+                        </button>
+                    </Link>
                 </div>
-            </div >
+            </div>
         </>
     )
 }

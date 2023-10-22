@@ -11,8 +11,10 @@ const NavBar = () => {
                         La Vie Est Belle
                     </div>
                 </Link>
-                <div className="header-spacer"></div>
-                <div>
+                <div className='content-select'>
+                    <Link to={`/category/Linea Home`}>
+                        Linea Home
+                    </Link>
                     <select className='header-select'>
                         <option value='1'>Todos</option>
                         <option value='2'>Linea Home</option>
@@ -23,7 +25,6 @@ const NavBar = () => {
                         <option value='7'>Esponjas</option>
                     </select>
                 </div>
-                <div className="header-spacer"></div>
                 <div>
                     <CartWidget />
                 </div>

@@ -1,31 +1,81 @@
 .header {
     background-color: rgb(236, 215, 255);
-    height: 90px;    
+    height: auto;
     width: 100vw;
     position: fixed;
-    z-index: 99;       
+    z-index: 99;
+
     .nav {
         display: flex;
-        flex-direction: row; 
+        flex-direction: row;
         justify-content: space-between;
+        flex-wrap: wrap;
         .header-link {
             .header-logo {
                 font-family: var(--font-title);
+                text-align: center;
                 font-size: 30px;
                 padding: 30px 30px;
                 width: 250px;
+                min-width: 250px;
+            }
+        }
+
+        .content-select {
+            min-width: 250px;
+            max-width: 250px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .header-select {
+                display: inline-block;
+                width: 100%;                
+                padding: 7px 10px;
+                margin: 28px;
+                height: 42px;
+                outline: 0;
+                border: 0;                
+                background: #ffffff;                
+                font-size: 12px;               
+                border: 2px solid rgba(0, 0, 0, 0.2);
+                border-radius: 5px;
+                position: relative;
+                transition: all 0.25s ease;
+            }
+            .header-select:hover {
+                background: #f5f7ff;
             }            
-        }
-        .header-select {
-            font-size: 15px;
-            margin: 31px;
-            background-color: white;
-            padding: 5px 10px;
-            width: 250px;
-        }
+        }        
         .header-select:focus {
             border-style: solid;
             border-color: cadetblue;
         }
     }
 }
+@media (max-width: 750px) {
+    .content-select {
+        order: 2;
+    }
+    
+}
+@media (max-width: 500px) {
+    .header {
+        background-color: rgb(236, 215, 255, 0.6) !important;
+        .nav {
+            justify-content: center !important;
+            .header-link {
+                .header-logo {
+                    padding: 10px !important;
+                }
+            }
+            .content-select {
+                .header-select {
+                    padding: 5px !important;
+                    margin: 10px !important;
+                }
+            }
+        }
+    }
+}
+
+

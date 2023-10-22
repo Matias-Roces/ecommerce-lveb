@@ -1,8 +1,9 @@
 import { useState, useEffect } from "react"
 import ItemList from "./ItemList"
-import './ItemListContainer.scss'
+import { useParams } from "react-router-dom"
 
 const ItemListContainer = () => {
+
     const getProducts = async () => {
         const response = await fetch('/data.json')
         const data = await response.json()        
@@ -15,13 +16,22 @@ const ItemListContainer = () => {
             setData(p)
         })
     }, [])
-    return (
-        <div className="card-container">
-            <ItemList data={data}/>
-            {/* <Center>{productos}</Center> */}
-        </div>
 
+    const { categoria } = useParams()
+    console.log(categoria)
+
+    useEffect(() => {
+        if (categoria != undefined) {
+            const filtrarPorCategoria = data.filter(({ categoria:cat })=>{
+                return cat == categoria               
+            })
+            console.log(filtrarPorCategoria)
+            setData(filtrarPorCategoria)         
+        }         
+    }, [categoria])
+    return (
+        <ItemList data={data}/>
     )
 }
-
+export getProducts()
 export default ItemListContainer

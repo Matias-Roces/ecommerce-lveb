@@ -5,8 +5,7 @@ import ItemCount from './ItemCount'
 const Home = () => {
     return (
         <>
-            <ItemListContainer />
-            <ItemCount />
+            <ItemListContainer />            
         </>
     )
 }

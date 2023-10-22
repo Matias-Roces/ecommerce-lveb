@@ -3,6 +3,7 @@
         "id":1,
         "nombre":"DIFUSOR AMBIENTAL",
         "categoria":"Linea Home",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"linea-home/difusor-ambiental.webp",
         "precio":2799
     },
@@ -10,6 +11,7 @@
         "id":2,
         "nombre":"ACEITE HIDROSOLUBLE",
         "categoria":"Linea Home",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"linea-home/aceites-hidrosolubles.webp",
         "precio":4499
     },
@@ -17,6 +19,7 @@
         "id":3,
         "nombre":"PERLAS AROMATICAS",
         "categoria":"Linea Home",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"linea-home/perlas-aromaticas.webp",
         "precio":2349
     },
@@ -24,6 +27,7 @@
         "id":4,
         "nombre":"ACEITE PARA MASAJES",
         "categoria":"Linea Spa",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"linea-spa/aceite-para-masajes.webp",
         "precio":1999
     },
@@ -31,6 +35,7 @@
         "id":5,
         "nombre":"AGUA DE BAÑO",
         "categoria":"Linea Spa",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"linea-spa/agua-de-bano.webp",
         "precio":1899
     },
@@ -38,6 +43,7 @@
         "id":6,
         "nombre":"SHOWER GEL",
         "categoria":"Linea Spa",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"linea-spa/shower-gel.webp",
         "precio":1669
     },
@@ -45,6 +51,7 @@
         "id":7,
         "nombre":"BOX DE JABONCITOS",
         "categoria":"Jabones",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"jabones/box-degustacion-jabones.webp",
         "precio":2699
     },
@@ -52,6 +59,7 @@
         "id":8,
         "nombre":"BARRA JABON PERFUMADO",
         "categoria":"Jabones",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"jabones/jabones-perfumados-frases.webp",
         "precio":1399
     },
@@ -59,6 +67,7 @@
         "id":9,
         "nombre":"CORAZONCITOS INFANTILES",
         "categoria":"Jabones",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"jabones/jaboncitos-infantiles.webp",
         "precio":2099
     },
@@ -66,6 +75,7 @@
         "id":10,
         "nombre":"JABON NATURAL GRANDE",
         "categoria":"Jabones",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"jabones/jabon-natural-grande.webp",
         "precio":1999
     },
@@ -73,6 +83,7 @@
         "id":11,
         "nombre":"BALSAMO LABIAL",
         "categoria":"Cosmetica Natural",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"cosmetica-natural/balsamo-labial.webp",
         "precio":1399
     },
@@ -80,6 +91,7 @@
         "id":12,
         "nombre":"BLANQUEADOR DENTAL",
         "categoria":"Cosmetica Natural",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"cosmetica-natural/blanqueador-dental.webp",
         "precio":1799
     },
@@ -87,6 +99,7 @@
         "id":13,
         "nombre":"SHAMPOO NEUTRO",
         "categoria":"Cosmetica Natural",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"cosmetica-natural/shampoo-neutro.webp",
         "precio":2699
     },
@@ -94,6 +107,7 @@
         "id":14,
         "nombre":"ESPONJA VEGETAL",
         "categoria":"Esponjas",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"esponjas/esponja-vegetal.webp",
         "precio":3199
     },
@@ -101,6 +115,7 @@
         "id":15,
         "nombre":"ESPONJA CAPULLO",
         "categoria":"Esponjas",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"esponjas/esponja-capullo.webp",
         "precio":2799
     },
@@ -108,6 +123,7 @@
         "id":16,
         "nombre":"ALMOHADILLA CERVICAL",
         "categoria":"Almohadillas y Antifaces",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"almohadilla-antifaz/almohadilla-cervical.webp",
         "precio":3699
     },
@@ -115,6 +131,7 @@
         "id":17,
         "nombre":"ALMOHADILLA TERMICA OCULAR",
         "categoria":"Almohadillas y Antifaces",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"almohadilla-antifaz/almohadilla-termica-ocular.webp",
         "precio":2899
     },
@@ -122,6 +139,7 @@
         "id":18,
         "nombre":"ALMOHADILLA DE VIAJE",
         "categoria":"Almohadillas y Antifaces",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"almohadilla-antifaz/almohadilla-viaje.webp",
         "precio":4299
     },
@@ -129,6 +147,7 @@
         "id":19,
         "nombre":"TAPALUZ OCULAR",
         "categoria":"Almohadillas y Antifaces",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"almohadilla-antifaz/tapaluz-ocular.webp",
         "precio":2299
     },
@@ -136,6 +155,7 @@
         "id":20,
         "nombre":"PORTA CEPILLOS DE MADERA",
         "categoria":"Accesorios de madera",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"accesorios-madera/porta-cepillos.webp",
         "precio":2749
     },
@@ -143,6 +163,7 @@
         "id":21,
         "nombre":"JABONERA DE MADERA VIRGEN",
         "categoria":"Accesorios de madera",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"accesorios-madera/jabonera-madera-v.webp",
         "precio":2649
     },
@@ -150,6 +171,7 @@
         "id":22,
         "nombre":"BANDEJA Y TACO DE MADERA",
         "categoria":"Accesorios de madera",
+        "descripcion":"Lorem ipsum dolor sit amet consectetur adipisicing elit. At, illum!",
         "img":"accesorios-madera/bandeja-taco-madera.webp",
         "precio":2479
     }
