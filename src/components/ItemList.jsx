@@ -2,11 +2,11 @@ import React from 'react'
 import Item from './Item'
 import './ItemList.scss'
 
-const ItemList = ({ data }) => {
+const ItemList = ({ items }) => {
   return (
     <div className="card-container">
       {
-        data.map((p) => {
+        items.map((p) => {
           return (
             <Item key={p.id} p={p} />
           )

@@ -2,7 +2,10 @@ import { Link } from 'react-router-dom';
 import CartWidget from './CartWidget';
 import './NavBar.scss'
 
+
 const NavBar = () => {
+
+    
     return (
         <header className='header'>
             <nav className='nav'>
@@ -12,18 +15,18 @@ const NavBar = () => {
                     </div>
                 </Link>
                 <div className='content-select'>
-                    <Link to={`/category/Linea Home`}>
-                        Linea Home
-                    </Link>
-                    <select className='header-select'>
-                        <option value='1'>Todos</option>
-                        <option value='2'>Linea Home</option>
-                        <option value='3'>Linea Spa</option>
-                        <option value='4'>Jabones</option>
-                        <option value='5'>Cosmetica natural</option>
-                        <option value='6'>Almohadillas y antifaces</option>
-                        <option value='7'>Esponjas</option>
-                    </select>
+                    <div className="dropdown">
+                        <span>Filtro por categoría</span>
+                        <div className="dropdown-content">
+                            <Link to={`/`} className="dropdown-item">Todos</Link>
+                            <Link to={`/category/${"Linea Home"}`} className="dropdown-item" >Linea Home</Link>
+                            <Link to={`/category/${"Linea Spa"}`} className="dropdown-item" >Linea Spa</Link>
+                            <Link to={`/category/${"Jabones"}`} className="dropdown-item" >Jabones</Link>
+                            <Link to={`/category/${"Cosmetica Natural"}`} className="dropdown-item" >Cosmetica Natural</Link>
+                            <Link to={`/category/${"Almohadillas y Antifaces"}`} className="dropdown-item" >Almohadillas y Antifaces</Link>
+                            <Link to={`/category/${"Esponjas"}`} className="dropdown-item" >Esponjas</Link>
+                        </div>
+                    </div>                    
                 </div>
                 <div>
                     <CartWidget />

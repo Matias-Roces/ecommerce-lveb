@@ -4,13 +4,63 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
     .detail-card-body {
-        width: 50%;
+        width: 20em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
         .detail-card-img {
             border-width: 5px;
             border-color: black;
             border-radius: 10px;
+
         }
-    }
+        .detail-card-texto {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .detail-card-titulo {
+                text-transform: uppercase;
+                text-align: center;
+                font-weight: 700;
+                font-size: 18px;
+                padding: 0px 15px;
+                padding-top: 10px;
+                
+            }
+            .detail-card-categoria {
+                text-transform: uppercase;
+                text-align: center;
+                font-weight: 400;
+                font-size: 15px;
+                padding: 5px;
+
+            }
+            .detail-card-descripcion {
+                text-align: start;
+                font-weight: 400;
+                font-size: 15px;
+                padding: 5px 10px;
+
+            }
+            .detail-card-descripcion {
+                text-align: start;
+                font-weight: 400;
+                font-size: 15px;
+                padding: 5px 10px;
+
+            }
+            .detail-card-precio {                
+                font-weight: 700;
+                font-size: 15px;
+                padding: 5px 10px;
+
+            }
+        }
+    }    
 }
