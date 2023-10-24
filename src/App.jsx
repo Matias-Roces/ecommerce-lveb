@@ -7,6 +7,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom"
 import './App.scss'
 import Spacer from "./components/Spacer"
 import ItemListContainer from "./components/itemListContainer"
+import Footer from "./components/Footer"
+import Supernova from "./components/Supernova"
 
 const App = () => {
   return (
@@ -21,6 +23,8 @@ const App = () => {
           <Route exact path="/ItemDetailContainer/:id" element={<ItemDetailContainer />} />
           <Route exact path="/category/:categoria" element={<ItemListContainer />}/>
         </Routes>
+        <Footer />
+        <Supernova />
       </BrowserRouter>
     </>
   )

@@ -4,6 +4,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(254, 247, 255, 1) 50%, rgba(253, 243, 255, 1) 75%, rgba(237, 237, 237, 1) 100%);
 
     .detail-card-body {
         width: 20em;
@@ -11,13 +14,14 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
+
         .detail-card-img {
             border-width: 5px;
             border-color: black;
             border-radius: 10px;
 
         }
+
         .detail-card-texto {
             display: flex;
             flex-direction: column;
@@ -31,8 +35,9 @@
                 font-size: 18px;
                 padding: 0px 15px;
                 padding-top: 10px;
-                
+
             }
+
             .detail-card-categoria {
                 text-transform: uppercase;
                 text-align: center;
@@ -41,6 +46,7 @@
                 padding: 5px;
 
             }
+
             .detail-card-descripcion {
                 text-align: start;
                 font-weight: 400;
@@ -48,6 +54,7 @@
                 padding: 5px 10px;
 
             }
+
             .detail-card-descripcion {
                 text-align: start;
                 font-weight: 400;
@@ -55,12 +62,13 @@
                 padding: 5px 10px;
 
             }
-            .detail-card-precio {                
+
+            .detail-card-precio {
                 font-weight: 700;
                 font-size: 15px;
                 padding: 5px 10px;
 
             }
         }
-    }    
+    }
 }
