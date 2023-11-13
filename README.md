@@ -38,7 +38,7 @@ Dentro de este componente se detallarán los productos que se desean comprar y a
 
 Las ediciones posibles dentro de la compra son:
 * Poder eliminar un producto no deseado en la compra
-* Vaciar directamente el carrito de compras. 
+* Vaciar el carrito de compras completo 
 
 Al intentar efectuar la compra se pide mediante un **formulario** los datos del comprador, cuyos datos se guardan en una base de datos para que el dueño de la tienda se ponga en contacto con el comprador, generando un ID de compra único. 
 
