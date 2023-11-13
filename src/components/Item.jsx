@@ -3,14 +3,14 @@ import './Item.scss'
 import { Link } from 'react-router-dom';
 
 const Item = ({ p }) => {
-    const { id, nombre, categoria } = p;
-
+    const { id, nombre, categoria, img } = p;
+    
     return (
         <>
             <div className='card'>
                 <div className='card-body'>
                     <img
-                        src='https://placehold.co/601x746'
+                        src={img}
                         alt={nombre}
                         className='card-img'
                     />

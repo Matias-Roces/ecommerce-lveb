@@ -10,7 +10,7 @@ const Footer = () => {
                 <h3>Nuestra ubicación</h3>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13108.808163055948!2d-58.3944981!3d-34.7756887!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2de01f2dc6b%3A0xc50dcc723506b9eb!2sLa%20vie%20est%20belle.%20Fragancias%20spa%2C%20bath%20%26%20body.!5e0!3m2!1ses-419!2sar!4v1696279760572!5m2!1ses-419!2sar"
-                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                    allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"
                     className="footer-mapa "></iframe>
             </div>
             <div className="footer-links">

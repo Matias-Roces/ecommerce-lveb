@@ -1,0 +1,90 @@
+.cart-card {
+    border-bottom: 1px solid rgb(175, 175, 175);
+
+    .cart-body {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 150px;
+        min-width: 350px;
+
+        .cart-img {
+            height: 120px;
+            width: auto;
+            border-radius: 5px;
+            margin: 5px;
+        }
+
+        .cart-texto {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: space-between;
+
+            .cart-titulo {
+                font-size: 16px;
+                font-weight: 500;
+                color: black;
+                text-align: center;
+                width: 200px;
+            }
+
+            .cart-botonera {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+
+                .cart-boton {
+                    cursor: pointer;
+                }
+
+                .cart-cantidad {
+                    padding: 9px 15px;
+                    margin: 10px 0px;
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: rgb(81, 81, 81);
+                    border-radius: 5px;
+                    box-shadow: inset 4px 4px 8px #e3e3e3,
+                        inset -4px -4px 8px #ffffff;
+                }
+            }
+
+        }
+
+        .precios {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+            .precio-unidad {
+                font-size: 14px;
+                font-weight: 500;
+                color: black;
+                padding: 10% 0;
+            }
+
+            .precio {
+                font-size: 14px;
+                font-weight: 700;
+                color: black;
+                padding-top: 10px;
+            }
+        }
+
+        .cart-eliminar {
+            .boton-eliminar {
+                cursor: pointer;
+                padding: 10px;
+                transition: 0.3s;
+            }
+
+            .boton-eliminar:hover {
+                transform: scale(120%);
+            }
+        }
+
+    }
+}

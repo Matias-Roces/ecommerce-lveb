@@ -1,7 +1,10 @@
 .cart {
-    background-color: aqua;
-    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-bottom: 50px;
+    background-color: rgb(255, 255, 255);
     padding-top: 90px;
+    min-height: 540px;
     font-size: 50px;
-
 }

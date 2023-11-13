@@ -1,0 +1,45 @@
+.form-titulo {
+    font-size: 30px;
+    background-color: #f3e5ff;
+    text-align: center;
+    padding: 5px;
+    margin: 10px 0px;
+    border-radius: 10px;
+}
+
+.form-text {
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.form-compra {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .form-input {
+        font-size: 20px;
+        padding: 5px;
+        border-bottom: 5px solid #f3e5ff;
+        width: 100%;
+    }
+
+    .form-button {
+        margin: 20px 0px;
+        background-color: rgb(243, 229, 255);
+        padding: 10px 15px;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.3s;
+        box-shadow: 6px 6px 15px #e0e0e0;
+        font-size: 15px;
+    }
+
+    .form-button:hover {
+        background-color: rgb(229, 199, 255);
+        color: rgb(95, 95, 95);
+        transform: scale(120%);
+
+    }
+}
