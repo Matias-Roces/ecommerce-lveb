@@ -4,6 +4,8 @@ El siguiente proyecto es una SPA que simula el front de un *E-Commerce* para el 
 
 ## Descripción de la aplicación
 
+La tienda **La Vie Est Belle - Fragancias** es una tienda ubicada a una cuadra de la estación de tren *Temperley*, partido de *Lomas de Zamora*. Se solicitó una **SPA** donde los clientes puedan acceder a las fotos y la información de los productos, de manera tal que los clientes puedan dejar preparado su pedido mediante un carrito de compras para retirar en tienda, o para que se coordine algun tipo de envío de la compra. La SPA consta de *componentes fijos* y *componentes dinámicos*, que permiten una navegación fluida. Se utiliza la **base de datos de Firebase** para el almacenamiento de la información de los productos y de las compras realizadas.
+
 ### Componentes fijos:
 
 #### Header
@@ -25,11 +27,24 @@ Este es el componente por defecto al abrir la SPA. Debajo de la barra de navegac
 
 #### Detalle del producto
 
-Este componente muestra todos los datos del producto y una botonera que permite elegir la cantidad de productos que se desea enviar al carrito, un botón de enviar al carrito dicho producto, y otro para volver al componente inicial. 
+Este componente muestra todos los datos del producto y añade un componente botonera que permite elegir la cantidad de productos que se desea enviar al carrito, un botón de enviar al carrito dicho producto, y otro para volver al componente inicial. 
 
 #### Carrito de compras
 
-*En construcción*
+Dentro de este componente se detallarán los productos que se desean comprar y ademas:
+* Precio por unidad
+* Subtotal por producto
+* Total de la compra
+
+Las ediciones posibles dentro de la compra son:
+* Poder eliminar un producto no deseado en la compra
+* Vaciar directamente el carrito de compras. 
+
+Al intentar efectuar la compra se pide mediante un **formulario** los datos del comprador, cuyos datos se guardan en una base de datos para que el dueño de la tienda se ponga en contacto con el comprador, generando un ID de compra único. 
+
+### Base de datos
+
+La base de datos utilizada es la de Firebase, cuyo formato es no SQL. Se utilizan tan solo dos colecciones y un storage propio de la base de datos para las imagenes. Una de las colecciones se utiliza para el almacenamiento de los productos, y la otra, para el almacenamiento de las compras.
 
 ### GIF de navegación
 
