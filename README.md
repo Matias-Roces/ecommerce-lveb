@@ -44,7 +44,7 @@ Al intentar efectuar la compra se pide mediante un **formulario** los datos del 
 
 ### Base de datos
 
-La base de datos utilizada es la de Firebase, cuyo formato es no SQL. Se utilizan tan solo dos colecciones y un storage propio de la base de datos para las imagenes. Una de las colecciones se utiliza para el almacenamiento de los productos, y la otra, para el almacenamiento de las compras.
+La base de datos utilizada es Firebase, de tipo noSQL. Se utilizan solo dos colecciones y un storage propio de la base de datos para las imagenes. Una de las colecciones se utiliza para el almacenamiento de los productos, y la otra, para el almacenamiento de las compras.
 
 ### GIF de navegación
 
